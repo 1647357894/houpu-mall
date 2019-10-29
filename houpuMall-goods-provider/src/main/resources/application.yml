@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: item-service
+  datasource:
+    url: jdbc:mysql://121.199.23.159:3306/houpu_goods
+    username: guest
+    password: guest
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 10
