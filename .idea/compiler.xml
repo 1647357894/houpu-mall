@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sample-generator" />
         <module name="houpuMall-goods-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="houpuMall" target="1.8" />
       <module name="houpuMall-goods-provider" target="1.8" />
+      <module name="sample-generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="houpuMall" options="-parameters" />
       <module name="houpuMall-goods-provider" options="-parameters" />
+      <module name="sample-generator" options="-parameters" />
     </option>
   </component>
 </project>

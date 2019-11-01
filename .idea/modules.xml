@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/houpuMall.iml" filepath="$PROJECT_DIR$/houpuMall.iml" />
       <module fileurl="file://$PROJECT_DIR$/houpuMall-goods-provider/houpuMall-goods-provider.iml" filepath="$PROJECT_DIR$/houpuMall-goods-provider/houpuMall-goods-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-generator/sample-generator.iml" filepath="$PROJECT_DIR$/sample-generator/sample-generator.iml" />
     </modules>
   </component>
 </project>
